@@ -1,0 +1,21 @@
+<div class="container">
+	<section class="timer-counter-label">
+		<div>
+			<span>{{minutes}}:</span><span>{{seconds}}:</span> <span>{{milliseconds}}</span> </div>
+		<div>
+			<span>{{minutes}}:</span><span>{{seconds}}:</span> <span>{{milliseconds}}</span>
+		</div>
+	</section>
+	<div class="timer-button-container">
+		<button class="timer-button" #startButton>
+			Start
+		</button>
+		<button class="timer-button" #lapButton>Lap</button>
+		<button class="timer-button" #clearButton>Clear</button>
+		<br>
+		<!-- <div *ngFor="let lap of laps;let i = index">
+			<div> &#9873; <b>Lap {{i+1}} ::</b>  {{lap}}</div>
+			<br>
+		</div> -->
+	</div>
+</div>
